@@ -11,4 +11,5 @@ Notes:
 7. Array name is a constant pointer i.e stores the actual starting addres of the array.
 8. In C by default call by value is used in function calling.
 9. C supports Abstraction but not data hiding, abstraction means hiding irrrevelant details from user whereas data hiding is hiding relevant dateils from the users.
-10. 
+10. Function can never be defined inside the defination of another function.
+11. Function in C can only return a single value.
