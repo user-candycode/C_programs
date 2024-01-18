@@ -10,3 +10,5 @@ Notes:
 6. Switch only works with integers and character constants, no variable is allowed unles evaluates to constant.
 7. Array name is a constant pointer i.e stores the actual starting addres of the array.
 8. In C by default call by value is used in function calling.
+9. C supports Abstraction but not data hiding, abstraction means hiding irrrevelant details from user whereas data hiding is hiding relevant dateils from the users.
+10. 
