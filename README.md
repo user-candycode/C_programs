@@ -13,4 +13,4 @@ Notes:
 9. C supports Abstraction but not data hiding, abstraction means hiding irrrevelant details from user whereas data hiding is hiding relevant dateils from the users.
 10. Function can never be defined inside the defination of another function.
 11. Function in C can only return a single value.
-12. Recursion Foraml Defination: Solving bigger problems using smaller problems is called as recursion.
+12. Recursion Foraml Defination: Solving bigger problems using smaller problems is called as recursion given a base condition.
