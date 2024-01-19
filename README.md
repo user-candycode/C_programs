@@ -14,3 +14,4 @@ Notes:
 10. Function can never be defined inside the defination of another function.
 11. Function in C can only return a single value.
 12. Recursion Foraml Defination: Solving bigger problems using smaller problems is called as recursion given a base condition. In recursion function call is push stack and completion is pop stack.
+13. To solve recursion use either Tree method or use activation stack record.
