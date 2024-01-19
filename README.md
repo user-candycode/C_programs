@@ -19,3 +19,5 @@ Notes:
 15. Static memory is scope bound but not lifetime bound (has default value 0).
 16. Global variables can be accessed by any functions written after it, global variables have default storage class of extern.
 17. Enternal variables or extern variable declares varibale directly not define it(define relates to memory allocation and declare relates to information to compiler).
+18. :: is known as scope resolution operator. ( ::x=10; // means use x that is outside of the current scope)
+19. In C if local and global variable is of same name then priority is given to local variable, if we want to use global variable then we use scope resolution operator.
