@@ -15,3 +15,5 @@ Notes:
 11. Function in C can only return a single value.
 12. Recursion Foraml Defination: Solving bigger problems using smaller problems is called as recursion given a base condition. In recursion function call is push stack and completion is pop stack.
 13. To solve recursion use either Tree method or use activation stack record.
+14. Storage in c are of 4 types(auto,registers,static,extern) with 4 defining properties with each (i.e location of storage on hardware, Default Inital Value, Scope, Life Time)
+15. Static memory is scope bound but not lifetime bound (has default value 0).
