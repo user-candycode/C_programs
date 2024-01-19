@@ -21,3 +21,4 @@ Notes:
 17. Enternal variables or extern variable declares varibale directly not define it(define relates to memory allocation and declare relates to information to compiler).
 18. :: is known as scope resolution operator. ( ::x=10; // means use x that is outside of the current scope)
 19. In C if local and global variable is of same name then priority is given to local variable, if we want to use global variable then we use scope resolution operator.
+20. Heap give away memory stack accumulates the memory as the program grows.
