@@ -18,4 +18,4 @@ Notes:
 14. Storage in c are of 4 types(auto,registers,static,extern) with 4 defining properties with each (i.e location of storage on hardware, Default Inital Value, Scope, Life Time)
 15. Static memory is scope bound but not lifetime bound (has default value 0).
 16. Global variables can be accessed by any functions written after it, global variables have default storage class of extern.
-17. 
+17. Enternal variables or extern variable declares varibale directly not define it(define relates to memory allocation and declare relates to information to compiler).
