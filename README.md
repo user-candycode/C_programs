@@ -49,5 +49,12 @@ Notes:
       2. "arr[1]" ===> second element of the array ===> " *(arr+1) "
       3. In string the name of the string array points to the address at which the strings are stored. this is because string needs ust the first address to print the entire string untill \0 is reached e.g. " printf("%c","ABCD"[1]) " ===> o/p B i.e *("base address of this string" + I) here I is 1.
       4. strings are stored contigious in memory with \0 at the end of each string.
-26. 
-27. 
+26. Structs adds up the variable memory used inside it.
+27. Union just uses the highest memory space required and all the variables just shares this memory by overiding the data when in use i.e useful in h/w programing where memory is scarse.
+28. enum just uses self incrementing values of same data type ,hence thir size are determined by what type of value is used inside it.
+29. Dynamic Memory allocation:
+      1. malloc(size)  , initilized by garbage values
+      2. calloc(number of mem blocks, size of these memory block)   ,initilized by 0
+      3. relloc(pointer pointing to old memory name, new memory size in bytes)   , should only be used after malloc or calloc
+      4. free(pointer pointing to memory name)  , has to be used before the program terminates to free all heap memory assigned during runtime.
+30. Dangling Pointer: a pointer p pointing to another pointer p1 that has been assigned a malloc or calloc memory, later this p1 is free(p1) then this p points to a memory that cant be accessed as this memory is outside the activation record of the process that this p belongs to. AKA memory Leak.
