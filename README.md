@@ -2,7 +2,7 @@
 
 Notes:
 
-1. For True c uses 1
+1. For True c uses 1 , but for loops any non 0 value is true
 2. For false c uses 0
 3. Increment and Decrement (++) (--) only works with variables not with constants
 4. Unary operators have associativity right to left
