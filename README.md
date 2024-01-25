@@ -47,5 +47,7 @@ Notes:
 25. Diff between Pointer to string and pointer to an array.
       1. Pointer to an array points to a constant pointer to the first address of the first element in an array i.e name of an array is a const pointer that cant be changed ever.
       2. "arr[1]" ===> second element of the array ===> " *(arr+1) "
+      3. In string the name of the string array points to the address at which the strings are stored. this is because string needs ust the first address to print the entire string untill \0 is reached e.g. " printf("%c","ABCD"[1]) " ===> o/p B i.e *("base address of this string" + I) here I is 1.
+      4. strings are stored contigious in memory with \0 at the end of each string.
 26. 
 27. 
