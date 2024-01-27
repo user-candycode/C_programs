@@ -26,7 +26,9 @@ int main()
         // child
         printf("child\n");
         execl("/bin/ls","ls", (char *)NULL);
+        //                       v is the command line arguments(since its NULL  means we are not passing any command line arguments)  
         // execl("/bin/ls","ls",NULL);
+        //        ^where command binary is stored
         exit(2);
     }
     else{
