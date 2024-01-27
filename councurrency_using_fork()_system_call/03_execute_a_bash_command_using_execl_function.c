@@ -27,7 +27,7 @@ int main()
         printf("child\n");
         execl("/bin/ls","ls", (char *)NULL);
         //                       v is the command line arguments(since its NULL  means we are not passing any command line arguments)  
-        // execl("/bin/ls","ls",NULL);
+        // execl("/bin/ls","ls",NULL);  // "ls" is the new process name
         //        ^where command binary is stored
         exit(2);
     }
